@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Shot 41a Anim.ma
-//Last modified: Tue, Apr 28, 2020 05:43:38 PM
+//Name: Shot 41a 003 Fixing Cushions.ma
+//Last modified: Tue, Apr 28, 2020 05:43:11 PM
 //Codeset: 1252
 file -rdi 1 -ns "Kong" -rfn "KongRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10668747/Documents/Senior_Kaiju_Film/Snacktime_HoudiniMaya//Scenes/Characters/00_Kong/Kong.ma";
 file -rdi 1 -ns "Zilla" -rfn "ZillaRN" -op "v=0;" -typ "mayaAscii" "C:/Users/10668747/Documents/Senior_Kaiju_Film/Snacktime_HoudiniMaya//Scenes/Characters/01_Zilla/Zilla.ma";
@@ -431,7 +431,7 @@ createNode locator -n "locatorShape1" -p "locator1";
 	rename -uid "4023641C-4E94-62DA-FAF3-19AA512A890C";
 	setAttr -k off ".v";
 createNode fosterParent -n "PrincessRNfosterParent1";
-	rename -uid "B3E10F12-4F7C-A62D-B17B-E4A7E13F1EC3";
+	rename -uid "A75E5298-4038-4ECC-BB7D-FDA751233636";
 createNode parentConstraint -n "Master_ctl_grp_parentConstraint1" -p "PrincessRNfosterParent1";
 	rename -uid "DD21A5D8-4B2C-30F9-0409-E48962030541";
 	addAttr -dcb 0 -ci true -k true -sn "w0" -ln "R_FK_Arm_03_ctlW0" -dv 1 -min 0 -at "double";
@@ -15118,4 +15118,4 @@ connectAttr "R_FK_Arm_03_ctl_scaleZ.msg" "MayaNodeEditorSavedTabsInfo.tgi[0].ni[
 		;
 connectAttr "defaultRenderLayer.msg" ":defaultRenderingList1.r" -na;
 connectAttr "pPlaneShape1.iog" ":initialShadingGroup.dsm" -na;
-// End of Shot 41a Anim.ma
+// End of Shot 41a 003 Fixing Cushions.ma

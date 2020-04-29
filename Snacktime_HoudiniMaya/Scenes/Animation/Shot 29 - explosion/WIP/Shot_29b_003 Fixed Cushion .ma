@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
-//Name: Shot 29 Anim.ma
-//Last modified: Tue, Apr 28, 2020 06:29:20 PM
+//Name: Shot_29b_003 Fixed Cushion .ma
+//Last modified: Tue, Apr 28, 2020 06:29:03 PM
 //Codeset: 1252
 file -rdi 1 -ns "Princess" -rfn "PrincessRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Spencer/Documents/10487246/senior-kaiju-film/Snacktime_HoudiniMaya//Scenes/Characters/Princess/Princess.ma";
 file -r -ns "Princess" -dr 1 -rfn "PrincessRN" -op "v=0;" -typ "mayaAscii" "C:/Users/Spencer/Documents/10487246/senior-kaiju-film/Snacktime_HoudiniMaya//Scenes/Characters/Princess/Princess.ma";
@@ -38185,4 +38185,4 @@ connectAttr "renderLayerManager.rlmi[0]" "defaultRenderLayer.rlid";
 connectAttr "sharedReferenceNode.sr" "PrincessRN.sr";
 connectAttr "_UNKNOWN_REF_NODE_.ur" "PrincessRN.ur";
 connectAttr "sharedReferenceNode.sr" "Princess_TowerRN.sr";
-// End of Shot 29 Anim.ma
+// End of Shot_29b_003 Fixed Cushion .ma
